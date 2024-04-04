@@ -5,6 +5,7 @@
     width: 100%;
     height: 300px;
     perspective: 1000px; /* Remova isso se você não quiser o efeito 3D */
+    cursor: pointer;
 }
 
 /* Este recipiente (container) é necessário para posicionar a frente e o verso */
@@ -13,7 +14,7 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.5s;
+    transition: transform 0.8s;
     transform-style: preserve-3d;
 }
 
@@ -35,7 +36,6 @@
     background-color: #bbb;
     color: black;
     width: 100%;
-
 }
 
 /* Estilo no verso */
@@ -48,4 +48,5 @@
     width: 100%;
     height: 300px;
     box-shadow: 2px 15px rgba(0,0,0,0.08);
+    border-radius: 10px;
 }
